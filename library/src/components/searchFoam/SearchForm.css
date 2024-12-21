@@ -1,0 +1,55 @@
+.search-form {
+    width: 60%;
+    max-width: 680px;
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+.search-form-content {
+    padding: 1rem; /* Padding around the form content */
+}
+
+.search-form-elem {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    background-color: #c5a2c2; /* Background color */
+    padding: 1.4rem 2.8rem; /* Padding inside the form element */
+    border-radius: 3.8rem; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    gap: 1rem; /* Space between input and button */
+}
+
+.form-control {
+    flex: 1; /* Takes available space */
+    font-size: 1.6rem; /* Font size */
+    padding: 0.8rem; /* Padding inside the input */
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 2rem; /* Rounded corners */
+    outline: none; /* Remove default outline */
+    transition: border-color 0.3s ease; /* Smooth border color transition */
+    color: #333; /* Text color */
+}
+
+.form-control::placeholder {
+    opacity: 0.7; /* Placeholder text opacity */
+    color: #888; /* Placeholder text color */
+}
+
+.form-control:focus {
+    border-color: #6a0dad; /* Border color on focus */
+}
+
+.search-button {
+    background-color: #6a0dad; /* Button background color */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Round button */
+    padding: 0.8rem; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor */
+    display: flex; /* Flexbox for centering icon */
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.search-button:hover {
+    background-color: #5c00a0; /* Darker shade on hover */
+}
